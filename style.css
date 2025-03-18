@@ -1,0 +1,23 @@
+.riya{
+    font-weight: bold;
+}
+
+.img-fluid {
+    height: 800px; /* Set a fixed height for uniformity */
+    width: 100%; /* Ensure full width */
+    object-fit: cover; /* Crop excess parts to maintain aspect ratio */
+    display: block; /* Prevents inline spacing issues */
+}
+
+.carousel-inner img {
+    max-height: 500px; /* Adjust to desired height */
+    width: auto; /* Maintain natural aspect ratio */
+    object-fit: contain; /* Ensures the whole image is visible */
+    display: block;
+    margin: 0 auto; /* Centers the image */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1); /* Changes white to black */
+}
